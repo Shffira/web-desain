@@ -1,0 +1,194 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+.navbar .logo img{
+    width: 70.5px;
+    height: 50px;
+    margin-left: 50px;
+}
+.hero{ display: flex;}
+
+.navbar {
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+}
+.menu ul li a { 
+    margin: 5px;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: small;
+}
+.HK {
+    color:white ;
+    background-color:#f1a204 ;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.br {
+    color: #f1a204;
+}
+.telah{
+    color:#f1a204;
+}
+.kompetensi{
+    color: #0c084c;
+}
+.sekolah{
+    color: #0c084c;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+.jurusan {
+    color: #687279;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.lihat  {
+    color: #0c084c;
+    background-color:#f5f0f0 ;
+    border-radius: 5px 5px 5px 5px;
+    padding: 12px;
+    /* text-decoration: none; */
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    fill: #0c084c;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #0c084c;
+
+}
+.daftar {
+    color:white ;
+    background-color:#f1a204 ;
+    border-radius: 5px 5px 5px 5px;
+    padding: 12px;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+}
+.foto{
+  /* background-color: #f1a204; */
+  width: 500px;
+  height: 100px;
+  
+
+}
+.foto img{
+    width: 100%;
+    height: auto;
+}
+
+
+.deskripsi{
+    background-color: white;
+}
+
+.kerja-alumni{
+    color: #0c084c;
+    font-weight: 600;
+    font-size: medium;
+    margin: 50px 0px 0px 0px;
+}
+.perusahaan-alumni img{
+    width:95px  ;
+    height:auto ;
+    
+}
+
+a:hover{
+    color: #f1a204;
+}
+.perusahaan-alumni{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* pertemuan4 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* box sizing:  */
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #fff;
+    padding: 40px;
+}
+.container_gallery {
+    max-width: 1100px;
+    margin: auto;
+    
+}
+
+
+.title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.filter-buttons{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.filter-btn{
+    border: 1px solid #ddd;
+    background: none;
+    color: #555;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-weight: 500;
+}
+.filter-btn.active,
+.filter-btn:hover {
+    background-color: #ff6b00;
+    color: white;
+    border-color:#ff6b00;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gambar{
+    width: 30%;
+    overflow: hidden;
+    border-radius: 12px;
+    transform: scale(1);
+    transition: all o.5s ease;
+}
+
+.gambar img{
+    width: 100%;
+    height: 100%;
+    
+}
+.gambar:hover{
+    transform: scale(1.05);
+}
+
+.kiri{
+    background-color: #f1a204;
+}

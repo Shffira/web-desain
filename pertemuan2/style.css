@@ -1,0 +1,42 @@
+body{
+    font-family: poppins;
+    background-color: rgb(224, 233, 195);
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+/* margin: 20px; */
+/*       atas kanan bawah kiri */
+margin: 50px 0px 0px 0px;
+}
+
+
+p{
+    background-color: bisque;
+    color: brown;
+font-size: 18px;
+font-weight: bold;
+
+/* spasi antar baris */
+line-height: 1.5;
+text-align: center;
+margin: 0px 0px 0px 0px;
+
+padding: 10px;
+
+border-radius: 10px;
+
+.ciko {
+    background-color: beige;
+    padding: 10px;
+}
+.ciko .husen {
+    background-color: aquamarine;
+  
+}
+.ciko .arghad {
+    background-color: rgb(255, 219, 127);
+}
+
+
+}

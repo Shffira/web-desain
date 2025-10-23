@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex dan Properti nya</title>
+
+<style>
+    .container{
+        width: 600px;
+        height: 150px;
+        border: 5px solid black;
+        margin: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        }
+        .container2{
+        width: 600px;
+        height: 150px;
+        border: 5px solid black;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        }
+        .container3{
+        width: 600px;
+        height: 150px;
+        border: 5px solid black;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .container4{
+        width: 600px;
+        height: 150px;
+        border: 5px solid black;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        }
+        .container5{
+        width: 600px;
+        height: 150px;
+        border: 5px solid black;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        }
+        .container6{
+        width: 600px;
+        height: 150px;
+        border: 5px solid black;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 50px;
+        }
+     .kotak{
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    margin: 10px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+        } 
+        h1 {
+            text-align: center;
+        }  
+
+</style>
+</head>
+<body>
+    <h1>Display flex, justify content start</h1>
+    <p>flex-start</p>
+    <div class="container"> 
+        <div class="kotak">1</div>
+        <div class="kotak">2</div>
+        <div class="kotak">3</div>
+
+    </div>
+    <p> flex-end</p>
+    <div class="container2"> 
+        <div class="kotak">1</div>
+        <div class="kotak">2</div>
+        <div class="kotak">3</div>
+        
+    </div>
+    <p>center</p>
+    <div class="container3"> 
+        <div class="kotak">1</div>
+        <div class="kotak">2</div>
+        <div class="kotak">3</div>
+        
+    </div>
+    <p> space-between</p>
+    <div class="container4"> 
+        <div class="kotak">1</div>
+        <div class="kotak">2</div>
+        <div class="kotak">3</div>
+        
+    </div>
+    <p>space-around</p>
+    <div class="container5"> 
+        <div class="kotak">1</div>
+        <div class="kotak">2</div>
+        <div class="kotak">3</div>
+        
+    </div>
+    <p>space-evenly</p> 
+    <div class="container6"> 
+        <div class="kotak">1</div>
+        <div class="kotak">2</div>
+        <div class="kotak">3</div>
+        
+    </div>
+</body>
+</html>

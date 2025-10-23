@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            width: 80%;
+            margin: auto;
+            border-radius: 5px;
+            background-color: #ccc;
+            padding: 20px;
+        }
+        input[type="text"]{
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Contact Form</h3>
+        <form action="">
+            <label for="nama_lengkap">Nama_Lengkap</label>
+            <input type="text" name="nama_lengkap" id="nama_lengkap" placeholder="Isikan Nama Lengkap Anda.."/>
+            
+            <label for="Negara">Negara</label>
+            <select name="Negara" id="Negara">
+                <option value="pilih">---pilih negara---</option>
+                <option value="Ausrtalia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="USA">USA</option>
+            </select>
+        </form>
+    </div>
+</body>
+</html>

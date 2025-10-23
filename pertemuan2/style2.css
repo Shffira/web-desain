@@ -1,0 +1,93 @@
+body{
+    font-family: poppins;
+    margin: 20px 20px 20px 20px;
+}
+
+
+
+p{
+    background-color: bisque;
+    color: brown;
+    font-size: 18px;
+    font-weight: bold;
+    /* spasi antar baris */
+line-height: 1.5;
+text-align: center;
+margin: 20px 20px 20px 20px;
+padding: 10px;
+border-radius: 10px;
+}
+
+.jurusan{
+    justify-content: center;
+    background-color: rgb(255, 255, 255) ;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    
+}
+
+.jurusan .tkj{
+    background-color:#F2F5F7;
+margin: 10px;
+padding: 10px;
+border-radius: 20px 20px 20px 20px ;
+}
+
+
+.jurusan .dkv{
+    background-color: #F2F5F7;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px ;
+}
+
+.jurusan .rpl{
+    background-color: #F2F5F7;
+    margin: 20px;
+    padding: 20px;
+ border-radius: 20px 20px 20px 20px ;
+    
+}
+    .tomboltkj{
+        text-align: center;
+background-color: #f1a204;
+color: #ffffff;
+border-radius: 5px;
+padding: 12px 24px ;
+    }
+
+
+.tomboldkv{
+    text-align: center;
+background-color: #f1a204;
+color: #ffffff;
+border-radius: 5px;
+padding: 12px 24px 12px 24p;
+font-weight: 700;
+margin-bottom: 20p;
+}
+
+
+.tombolrpl{
+    text-align: center;
+background-color: #f1a204;
+color: #ffffff;
+border-radius: 5px;
+padding: 12px 24px  12px 24px;
+font-weight: 700;
+margin-bottom: 20p;
+}
+
+.silabus {
+background-color: #0c084c;
+text-align: center;
+color: #ffffff ;
+border-radius: 5px;
+padding: 8px 13px 8px 13px;
+border-radius: 5px;
+font-weight: 700;
+margin-top: 30px;
+margin-bottom: 20px;
+}
